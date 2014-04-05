@@ -1,7 +1,14 @@
 # Circular Progress Bar for Titanium
+Not much to say here, except:
 
+1. It's a circular progress bar, with the % displayed in the middle
+2. It works in Titanium Classic and Titanium Alloy
+3. It works in iOS and it works in Android
+4. It returns a Ti.UI.View object
  	
 ## Circular Progress Bar Options
+ 
+ circularProgressBar({options})
  
 	percent: A value between 0 and 1
 	size: The size of the circular progress bar
@@ -19,6 +26,8 @@
 	font.shadowRadius: The font shadow radius
 	font.shadowOffset.x: The x value of the shadow shadowOffset
 	font.shadowOffset.y: The y value of the shadow shadowOffset
+
+To update the progress bar, call the update method, passing it a new percent value.
 
 ## example:
 
